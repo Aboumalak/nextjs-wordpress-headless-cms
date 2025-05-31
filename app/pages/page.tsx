@@ -4,6 +4,9 @@ import { Metadata } from "next";
 import BackButton from "@/components/back";
 import Link from "next/link";
 
+export const dynamic = 'force-dynamic';
+
+
 export const metadata: Metadata = {
   title: "All Pages",
   description: "Browse all pages of our blog posts",
